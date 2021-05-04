@@ -19,6 +19,8 @@ function Home() {
         {/*  Page sections */}
         <HeroHome />
         <FeaturesBlocks />
+        {/*children*/}
+        {/*Add info from featuresBlocks selector*/}
         <Testimonials />
 
       </main>

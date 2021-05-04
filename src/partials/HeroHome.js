@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 
 function HeroHome() {
@@ -26,13 +26,13 @@ function HeroHome() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* Hero content */}
-        <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+        <div className="pt-32 pb-12 md:pt-40 md:pb-0">
 
           {/* Section header */}
-          <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Decentralized Lending Protocol <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"><br/>Built on Cardano</span></h1>
+          <div className="text-center pb-6 md:pb-16">
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-6" data-aos="zoom-y-out">The eUTXO Liquidity Protocol<span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"><br/>Built on Cardano</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">A non-custodial lending for lenders, borrowers, and developers. Liqwid finance provides decentralized peer to peer lending services to anyone.</p>
+              <p className="text-xl text-gray-600 mb-0" data-aos="zoom-y-out" data-aos-delay="150">A non-custodial algorithmic lending protocol for savers, borrowers, and developers.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">  
               </div>
             </div>
