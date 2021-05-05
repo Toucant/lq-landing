@@ -1,6 +1,6 @@
 # Liqwid Finance Landing Page
 
-#Construct 
+# Construct 
 -run "yarn" in cmd
 -run "yarn start" to launch site
 
