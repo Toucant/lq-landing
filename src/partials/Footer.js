@@ -109,7 +109,7 @@ function Footer() {
           {/* Social links */}
           
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">Made by <a className="text-blue-600 hover:underline" href="https://github.com/Toucant">Dirty Mike and the Boys</a></div>
+          <div className="text-sm text-gray-600 mr-4">All rights reserved <a className="text-blue-600 hover:underline" href="https://github.com/Toucant">Liqwid Finance</a></div>
 
         </div>
 

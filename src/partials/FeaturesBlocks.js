@@ -22,7 +22,7 @@ export default function FeaturesBlocks() {
   return (
     <section className="relative">
 
-      <div className="relative max-w-6xl mx-auto px-0 sm:px-6">
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 
           {/* Section header */}
@@ -61,10 +61,7 @@ export default function FeaturesBlocks() {
             </div>
 
             {/* 5th item */}
-            <div className="cursor-pointer select-none relative flex flex-col items-center p-6 bg-white rounded border-t-2 hover:border-teal-400" onClick={()=> setView("Documents")}>
-              
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Documents</h4>
-            </div>
+            
 
             {/* 6th item */}
             <div className="cursor-pointer select-none relative flex flex-col items-center p-6 bg-white rounded border-t-2 hover:border-teal-400" onClick={()=> setView("LQ")}>
@@ -74,7 +71,7 @@ export default function FeaturesBlocks() {
         </div>
         
       </div>
-      <div className="relative max-w-6xl mx-auto px-0 sm:px-6">
+      <div className="relative max-w-6xl mx-auto px-6 sm:px-6">
         {viewState === "Supply" && <Supply />}
         {viewState === "Borrow" && <Borrow />}
         {viewState === "QToken" && <QToken />}

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
@@ -37,6 +37,3 @@ export default ({children}) => (
     </div>
     </div>
   )
-function Stuff() {
-  return <h1>Stuff</h1>
-}
