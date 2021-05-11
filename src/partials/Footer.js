@@ -54,7 +54,7 @@ function Footer() {
           </div>
 
           {/* 2nd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
+          <div className="sm:col-span-2 md:col-span-3 lg:col-span-3">
             <h6 className="text-gray-800 font-medium mb-2">Protocol</h6>
             <ul className="text-sm">
               <li className="mb-2">
@@ -70,7 +70,7 @@ function Footer() {
           </div>
 
           {/* 3rd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          <div className="sm:col-span-2 md:col-span-3 lg:col-span-2">
             <h6 className="text-gray-800 font-medium mb-2">Governance</h6>
             <ul className="text-sm">
               <li className="mb-2">
@@ -86,7 +86,7 @@ function Footer() {
           </div>
 
           {/* 4th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          <div className="sm:col-span-2 md:col-span-3 lg:col-span-2">
             <h6 className="text-gray-800 font-medium mb-2">Company</h6>
             <ul className="text-sm">
               <li className="mb-2">

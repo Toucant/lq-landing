@@ -2,8 +2,9 @@ import React from 'react'
 
 function Team() {
     return (
-        <section className="relative">
-          <div className="max-w-6xl mx-auto text-left pt-32 md:pt-12">
+        <section className="relative mx-auto sm:px-6">
+          
+          <div className="max-w-6xl mx-auto text-left pt-32 sm:px-6">
             <h3 className="text-teal-500 font-bold">Team</h3>
             <h2 className="h3 mb-4">Core Team</h2>
                 <p>The Liqwid team is composed of traditional finance industry veterans, defi Students of the game and Haskell developers.</p>
@@ -12,7 +13,7 @@ function Team() {
             <div className="relative flex items-start border-gray-200 bg-white">
                 
               {/* Testimonial */}
-              <div className="px-0 py-0 pt-12 mx-0 md:mx-0">
+              <div className="px-0 py-0 pt-12 mx-auto text-left pt-32 sm:px-6">
                 
                   <div className="max-w-sm md:max-w-6xl mx-auto grid gap-6 grid-cols-4 md:grid-cols-6">
                   <div className="relative flex flex-col items-left p-0 bg-white">
@@ -59,7 +60,7 @@ function Team() {
             <div className="relative flex items-start border-gray-200 bg-white">
                 
               {/* Testimonial */}
-              <div className="px-0 py-8 pt-0 mx-0 md:mx-0">
+              <div className="px-0 py-8 pt-0 mx-auto text-left pt-32 sm:px-6">
                 
                   <div className="max-w-sm md:max-w-6xl mx-auto grid gap-6 grid-cols-4 md:grid-cols-6">
                   <div className="relative flex flex-col items-left p-0 bg-white">

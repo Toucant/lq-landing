@@ -8,9 +8,8 @@ import Footer from '../partials/Footer';
 import Ecosystem from '../partials/Ecosystem';
 import Team from '../partials/Team';
 
-function Home() {
-  //const [selectedView, setView] = useState("supply");
-  return (
+export default ({children}) => (
+  <div>
     <div className="flex flex-col min-h-screen overflow-hidden">
 
       {/*  Site header */}
@@ -25,6 +24,8 @@ function Home() {
         
         {/*children*/}
         {/*Add info from featuresBlocks selector*/}
+
+
         
         <Team />
         <Ecosystem />
@@ -34,7 +35,8 @@ function Home() {
       <Footer />
 
     </div>
-  );
+    </div>
+  )
+function Stuff() {
+  return <h1>Stuff</h1>
 }
-
-export default Home;
