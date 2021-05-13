@@ -7,10 +7,10 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* Top area: Blocks */}
-        <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-4 border-t border-gray-200">
+        <div className="grid grid-cols-2 md:grid-cols-12 gap-8 py-8 md:py-4 border-t border-gray-200">
 
           {/* 1st block */}
-          <div className="sm:col-span-12 lg:col-span-3">
+          <div className="col-span-2 lg:col-span-3 ml-24 lg:ml-0">
             <div className="mb-2">
               {/* Logo */}
               <Link to="/" className="inline-block" aria-label="Liqwid">
@@ -19,7 +19,7 @@ function Footer() {
             </div>
             <div className="text-sm text-gray-600">
               <p className="ml-2">Liqwid · Finance </p><br />
-              <ul className="flex justify-left  items-left">
+              <ul className="flex justify-left items-left mr-24">
               
             <li>
               <a href="https://twitter.com/liqwidfinance" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Twitter">
@@ -54,7 +54,7 @@ function Footer() {
           </div>
 
           {/* 2nd block */}
-          <div className="sm:col-span-2 md:col-span-3 lg:col-span-3">
+          <div className="col-span-1 md:col-span-3 lg:col-span-2 justify-self-center">
             <h6 className="text-gray-800 font-medium mb-2">Protocol</h6>
             <ul className="text-sm">
               <li className="mb-2">
@@ -64,36 +64,37 @@ function Footer() {
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Markets</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Docs</Link>
+                <a href="https://liqwid-labs.gitbook.io/liqwid-docs/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Docs</a>
               </li>            
             </ul>
           </div>
 
           {/* 3rd block */}
-          <div className="sm:col-span-2 md:col-span-3 lg:col-span-2">
+          <div className="sm:col-span-2 md:col-span-3 lg:col-span-2 justify-self-center" >
             <h6 className="text-gray-800 font-medium mb-2">Governance</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Medium</Link>
+                <a href="https://liqwid-finance.medium.com/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Medium</a>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">White Paper</Link>
+                <a href="https://drive.google.com/file/d/1HN65TDm7-06m7XwiXmLQeWFevZYKgEZG/view" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">White Paper</a>
+
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Github</Link>
+                <a href="https://github.com/Liqwidfinance" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Github</a>
               </li>
             </ul>
           </div>
 
           {/* 4th block */}
-          <div className="sm:col-span-2 md:col-span-3 lg:col-span-2">
+          <div className="sm:col-span-2 md:col-span-3 lg:col-span-2 justify-self-center">
             <h6 className="text-gray-800 font-medium mb-2">Company</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">FAQ</Link>
+                <a href="https://liqwid-labs.gitbook.io/liqwid-docs/faq" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">FAQ</a>
               </li>
             </ul>
           </div>
