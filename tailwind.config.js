@@ -30,6 +30,10 @@ module.exports = {
           900: '#004391',
         },
       },
+      backgroundImage: theme =>({
+        'hero-lg': "src('/Mask_Group_1.png')",
+        'hero-sm': "url('/storage/img/sys/sm-hero.jpg')",
+      }),
       boxShadow: {
         xs: '0 0 0 1px rgba(0, 0, 0, 0.16)',
         sm: '0 1px 2px 0 rgba(0, 0, 0, 0.16)',
@@ -155,6 +159,7 @@ module.exports = {
     translate: ['responsive', 'hover', 'focus', 'group-hover'],
     boxShadow: ['responsive', 'hover', 'focus', 'focus-within'],
     opacity: ['responsive', 'hover', 'focus', 'group-hover'],
+
   },
   plugins: [
     require('@tailwindcss/custom-forms'),

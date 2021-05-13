@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {} from 'react';
 
 import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
@@ -7,6 +7,7 @@ import FeaturesBlocks from '../partials/FeaturesBlocks';
 import Footer from '../partials/Footer';
 import Ecosystem from '../partials/Ecosystem';
 import Team from '../partials/Team';
+import About from '../partials/About';
 
 export default ({children}) => (
   <div>
@@ -26,7 +27,8 @@ export default ({children}) => (
         {/*Add info from featuresBlocks selector*/}
 
 
-        
+        {/* Add About */}
+        <About></About>
         <Team />
         <Ecosystem />
       </main>

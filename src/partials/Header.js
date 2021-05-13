@@ -13,7 +13,10 @@ function Header() {
     window.addEventListener('scroll', scrollHandler);
     return () => window.removeEventListener('scroll', scrollHandler);
   }, [top]);  
-
+  const scrollTop = () =>{
+    window.scrollTo({top: 0, behavior: 'smooth'});
+ };
+ 
   return (
     <header className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${!top && 'bg-white blur shadow-lg'}`}>
       <div className="max-w-12xl mx-auto px-5 sm:px-6">
@@ -22,50 +25,48 @@ function Header() {
           {/* Site branding */}
           <div className=" flex-shrink-0 mr-4">
             {/* Logo */}
-            <Link to="/" className="text-left block" aria-label="Liqwid">
-            <img className="relative full" src={require('../images/liqwid_FINAL_v2-01.png')} width="125" height="96" alt="Logo 01" />
-            </Link>
+            
+            <img  onClick={scrollTop} className="cursor-pointer relative full" src={require('../images/liqwid_FINAL_v2-01.png')} width="125" height="96" alt="Logo 01" />
+           
             <ul>
               
             </ul>
           </div>
-
           {/* Site navigation */}
-          <nav className="flex flex-grow">
-            <ul className="flex flex-grow justify-end flex-wrap items-center gap-6 font-bold">
+          <nav className="">
+            <ul className="flex justify-end flex-wrap items-center sm:gap-0 md:gap-6 font-bold">
               
-            <li className="border-t-4 hover:border-teal-400">
-              <a href="https://twitter.com/liqwidfinance" className="flex justify-center items-center no-underline text-gray-600 hover:text-gray-900 hover:from-blue-500 hover:to-teal-400 transition duration-150 ease-in-out" aria-label="Twitter">
+            <li className="border-t-4 hover:border-teal-400 invisible md:visible">
+              <a href="#Solutions" className="flex justify-center items-center no-underline text-gray-600 hover:text-gray-900 hover:from-blue-500 hover:to-teal-400 transition duration-150 ease-in-out" aria-label="Twitter">
                 Solutions
               </a>
             </li>
-            <li className="border-t-4 hover:border-teal-400">
-              <a href="https://github.com/Liqwidfinance" className="flex justify-center items-center no-underline text-gray-600  hover:text-gray-900 bg-white hover:bg-white-100  transition duration-150 ease-in-out" aria-label="Github">
+            <li className="border-t-4 hover:border-teal-400 invisible md:visible">
+              <a href="#About" className="flex justify-center items-center no-underline text-gray-600  hover:text-gray-900 bg-white hover:bg-white-100  transition duration-150 ease-in-out" aria-label="Github">
                 About Us
               </a>
             </li>
-            <li className="border-t-4 hover:border-teal-400">
-              <a href="https://liqwid-finance.medium.com/" className="flex justify-center items-center no-underline text-gray-600  hover:text-gray-900 bg-white hover:bg-white-100  transition duration-150 ease-in-out" aria-label="Medium">
+            <li className="border-t-4 hover:border-teal-400 invisible md:visible">
+              <a href="#Team" className="flex justify-center items-center no-underline text-gray-600  hover:text-gray-900 bg-white hover:bg-white-100  transition duration-150 ease-in-out" aria-label="Medium">
                 Team
               </a>
             </li>
-            
-            {/*  */}
+            {/* Launch */}
 
               <li>
-                <Link to="/signup" className="btn-sm font-bold text-gray-200 rounded-full ml-0 bg-gradient-to-r from-teal-600 to-blue-400">
-                  <span>Launch App</span>
-                                    
+                <Link to="#" className="btn-sm font-bold text-gray-200 rounded-full ml-0 bg-gradient-to-r from-teal-600 to-blue-600 shadow-none visible">
+                  <span>Launch App</span>             
                 </Link>
               </li>
             </ul>
 
           </nav>
-
+          
         </div>
       </div>
     </header>
   );
 }
+
 
 export default Header;

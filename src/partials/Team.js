@@ -2,87 +2,85 @@ import React from 'react'
 
 function Team() {
     return (
-        <section className="relative">
+        <section id="Team"  className="relative pt-8 px-2 md:pt-16">
           <div className ="relative max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="max-w-6xl mx-auto text-left pt-32 md:pt-12">
+          <div className="max-w-6xl mx-auto text-left pt-0 md:pt-12">
             <h3 className="text-teal-500 font-bold">Team</h3>
-            <h2 className="h3 mb-4">Core Team</h2>
+            <h2 className="h3">Core Team</h2>
                 
           </div>
           <div className="max-w-6xl mx-auto text-left " data-aos="zoom-y-out">
-            <div className="relative items-start border-gray-200 bg-white">
+            
                 
               {/* Core */}
-              <div className="px-0 py-8 pt-0 mx-auto text-left md:pt-12 sm:px-6">
+              <div className=" text-left max-w-sm md:max-w-6xl mx-auto grid md:grid-cols-6 sm:grid-cols-4 sm:grid-rows-1 sm:gap-0 md:gap-6 pt-6">
                 
-                  <div className="max-w-sm md:max-w-6xl mx-auto grid gap-6 grid-cols-4 md:grid-cols-6">
-                  <div className="relative flex flex-col items-left p-0 bg-white">
-                  <img className="relative " src={require('../images/Team/dc.png')} width="125" height="125" alt="Dewayne Cameron" />   
-                  <p className="text-sm font-bold  text-black  mb-1">Dewayne Cameron</p>
-                  <p className="text-teal-500">Founder</p>
+                  <div className="relative mx-auto flex flex-col align-center sm:items-center md:items-start bg-white">
+                  <img className="relative sm:w-auto md:w-px-125" src={require('../images/Team/dc.png')} alt="Dewayne Cameron" />   
+                  <p className="text-sm font-bold  text-black  mb-1/2 text-center">Dewayne Cameron</p>
+                  <p className="text-teal-500 text-center">Founder</p>
            </div>
-           <div className="relative flex flex-col items-left p-0 bg-white">
-           <img className="relative " src={require('../images/Team/ja.png')} width="125" height="125" alt="Joshua Akpan" />  
-             <p className="text-sm font-bold  text-black  mb-1">Joshua Akpan</p>
-             <p className="text-teal-500 ">Co-Founder</p>
+           <div className="relative mx-auto flex flex-col align-center sm:items-center md:items-start bg-white">
+           <img className="relative sm:w-auto md:w-px-125" src={require('../images/Team/ja.png')} alt="Joshua Akpan" />  
+             <p className="text-sm font-bold  text-black  mb-1/2 text-center">Joshua Akpan</p>
+             <p className="text-teal-500 text-center">Co-Founder</p>
            </div>
-           <div className="relative flex flex-col items-left p-0 bg-white">
-           <img className="relative " src={require('../images/Team/tv.png')} width="125" height="125" alt="Dewayne Cameron" />  
-             <p className="text-sm font-bold  text-black  mb-1">Tashoma Vilini</p>
-             <p className="text-teal-500 ">Co-Founder</p>
+           <div className="relative mx-auto flex flex-col align-center sm:items-center md:items-start bg-white">
+           <img className="relative sm:w-auto md:w-px-125" src={require('../images/Team/tv.png')} alt="Tashoma Vilini" />  
+             <p className="text-sm font-bold  text-black mb-1 text-center">Tashoma Vilini</p>
+             <p className="text-teal-500 text-center">Co-Founder</p>
            </div>
-           <div className="relative flex flex-col items-left p-0 bg-white">
-           <img className="relative " src={require('../images/Team/hh.png')} width="125" height="125" alt="Dewayne Cameron" />  
-             <p className="text-sm font-bold  text-black  mb-1">Holger Hartstock</p>
-             <p className="text-teal-500">Tech Lead</p>
+           <div className="relative mx-auto flex flex-col align-center sm:items-center md:items-start bg-white">
+           <img className="relative sm:w-auto md:w-px-125" src={require('../images/Team/hh.png')}  alt="Holger Hartstock" />  
+             <p className="text-sm font-bold  text-black  mb-1 text-center">Holger Hartstock</p>
+             <p className="text-teal-500 text-center">Tech Lead</p>
            </div>
-           <div className="relative flex flex-col items-left p-0 bg-white">
-           <img className="relative " src={require('../images/Team/fv.png')} width="125" height="125" alt="Dewayne Cameron" />  
-             <p className="text-sm font-bold  text-black  mb-1">Florian Volery</p>
-             <p className="text-teal-500">Product Lead</p>
+           <div className="relative mx-auto flex flex-col align-center sm:items-center md:items-start bg-white">
+           <img className="relative sm:w-auto md:w-px-125" src={require('../images/Team/fv.png')}  alt="Florian Volery" />  
+             <p className="text-sm font-bold  text-black  mb-1 text-center">Florian Volery</p>
+             <p className="text-teal-500 text-center">Product Lead</p>
            </div>
-           <div className="relative flex flex-col items-left p-0 bg-white">
-           <img className="relative " src={require('../images/Team/emily.png')} width="125" height="125" alt="Dewayne Cameron" />  
-           <p className="text-sm font-bold  text-black  mb-1">Emily Martins</p>
-             <p className="text-teal-500">Core Developer</p>
+           <div className="relative mx-auto flex flex-col align-center sm:items-center md:items-start bg-white">
+           <img className="relative sm:w-auto md:w-px-125" src={require('../images/Team/emily.png')}  alt="Emily Martins" />  
+           <p className="text-sm font-bold  text-black  mb-0 text-center">Emily Martins</p>
+             <p className="text-teal-500 text-center">Core Developer</p>
            </div>
                   
                   
-                  </div>
+                  
               </div>
 
-            </div>
+            
           </div>
-          <div className="max-w-6xl mx-auto text-left pt-32 md:pt-12">
+          <div className="max-w-6xl mx-auto text-left pt-0 md:pt-12">
             <h3 className="text-teal-500 font-bold">Team</h3>
             <h2 className="h3">Advisors</h2></div>
             <div className="max-w-6xl mx-auto text-left" data-aos="zoom-y-out">
             <div className="relative items-start border-gray-200 bg-white">
                 
               {/* Advisors */}
-              <div className="px-0 py-8 pt-0 mx-auto text-left md:pt-12 sm:px-6">
+              <div className=" text-left max-w-sm md:max-w-6xl mx-auto grid md:grid-cols-6 sm:grid-cols-4 sm:grid-rows-1 sm:gap-0 md:gap-6 pt-6">
                 
-                  <div className="max-w-sm md:max-w-6xl mx-auto grid  grid-cols-4 md:grid-cols-6">
-                  <div className="relative flex flex-col items-left p-0 bg-white">
-                  <img className="relative " src={require('../images/Team/advisor-ac.png')} width="125" height="125" alt="Dewayne Cameron" />   
-                  <p className="text-sm font-bold  text-black  mb-1">Alex Cater</p>
-             <p className="text-teal-500">Strategic Advisor</p>
+                  <div className="relative mx-auto flex flex-col align-center sm:items-center md:items-start bg-white">
+                  <img className="relative sm:w-auto md:w-px-125" src={require('../images/Team/advisor-ac.png')}  alt="Dewayne Cameron" />   
+                  <p className="text-sm font-bold  text-black  mb-0 text-center">Alex Cater</p>
+             <p className="text-teal-500 text-center">Strategic Advisor</p>
              </div>
-             <div className="relative flex flex-col items-left p-0 bg-white">
-           <img className="relative " src={require('../images/Team/advisor-hp.png')} width="125" height="125" alt="Dewayne Cameron" />  
-           <p className="text-sm font-bold  text-black  mb-1">Hinrich Pfeifer</p>
-             <p className="text-teal-500">Cardano Foundation</p>
+             <div className="relative mx-auto flex flex-col align-center sm:items-center md:items-start bg-white">
+           <img className="relative sm:w-auto md:w-px-125" src={require('../images/Team/advisor-hp.png')}  alt="Dewayne Cameron" />  
+           <p className="text-sm font-bold  text-black  mb-0 text-center">Hinrich Pfeifer</p>
+             <p className="text-teal-500 text-center">Cardano Foundation</p>
            </div>
-           <div className="relative flex flex-col items-left p-0 bg-white">
-           <img className="relative " src={require('../images/Team/advisor-ld.png')} width="125" height="125" alt="Dewayne Cameron" />  
-           <p className="text-sm font-bold  text-black  mb-1">Larry Doyle</p>
-             <p className="text-teal-500">Economic Advisor</p>
+           <div className="relative mx-auto flex flex-col align-center sm:items-center md:items-start bg-white">
+           <img className="relative sm:w-auto md:w-px-125" src={require('../images/Team/advisor-ld.png')}  alt="Dewayne Cameron" />  
+           <p className="text-sm font-bold  text-black  mb-0 text-center">Larry Doyle</p>
+             <p className="text-teal-500 text-center">Economic Advisor</p>
            </div>
              </div>
              </div>
              </div>
              </div>
-             </div>
+             
         </section>
     )
 }
