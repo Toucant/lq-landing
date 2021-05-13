@@ -61,7 +61,7 @@ function Footer() {
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Markets</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Docs</Link>
+                <a href="https://liqwid-labs.gitbook.io/liqwid-docs/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Docs</a>
               </li>            
             </ul>
           </div>
@@ -90,7 +90,7 @@ function Footer() {
                 <span className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About</span>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">FAQ</Link>
+                <a href="https://liqwid-labs.gitbook.io/liqwid-docs/faq" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">FAQ</a>
               </li>
             </ul>
           </div>
