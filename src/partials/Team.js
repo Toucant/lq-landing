@@ -13,10 +13,10 @@ function Team() {
             
                 
               {/* Core */}
-              <div className=" text-left max-w-sm md:max-w-6xl mx-auto grid md:grid-cols-6 sm:grid-cols-4 sm:grid-rows-1 sm:gap-0 md:gap-6 pt-6">
+              <div className=" text-left max-w-sm md:max-w-6xl mx-auto grid grid-cols-2 gap-2 md:grid-cols-6 sm:grid-cols-4 sm:grid-rows-1 md:gap-0 md:gap-6 pt-6">
                 
                   <div className="relative mx-auto flex flex-col align-center sm:items-center md:items-start bg-white">
-                  <img className="relative sm:w-auto md:w-px-125" src={require('../images/Team/dc.png')} alt="Dewayne Cameron" />   
+                  <img className="relative w-auto md:w-px-125" src={require('../images/Team/dc.png')} alt="Dewayne Cameron" />   
                   <p className="text-sm font-bold  text-black  mb-1/2 text-center">Dewayne Cameron</p>
                   <p className="text-teal-500 text-center">Founder</p>
            </div>
@@ -59,7 +59,7 @@ function Team() {
             <div className="relative items-start border-gray-200 bg-white">
                 
               {/* Advisors */}
-              <div className=" text-left max-w-sm md:max-w-6xl mx-auto grid md:grid-cols-6 sm:grid-cols-4 sm:grid-rows-1 sm:gap-0 md:gap-6 pt-6">
+              <div className=" text-left max-w-sm md:max-w-6xl mx-auto grid grid-cols-2 gap-2 md:grid-cols-6 sm:grid-cols-4 sm:grid-rows-1 md:gap-2 md:gap-6 pt-6">
                 
                   <div className="relative mx-auto flex flex-col align-center sm:items-center md:items-start bg-white">
                   <img className="relative sm:w-auto md:w-px-125" src={require('../images/Team/advisor-ac.png')}  alt="Dewayne Cameron" />   

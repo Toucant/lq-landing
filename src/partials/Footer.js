@@ -10,13 +10,13 @@ function Footer() {
         <div className="grid grid-cols-2 sm:grid-cols-6 md:grid-cols-9 grid-rows-2 md:grid-rows-1 md:gap-8 md:pt-12 border-t border-gray-200 pt-16 md:pt-0 ">
 
           {/* 1st block */}
-          <div className="col-span-full row-span-full md:row-span-1 sm:mx-auto items-center md:col-span-4 md:pl-0">
+          <div className="col-span-2 row-span-1 md:row-span-1 sm:mx-auto items-center md:col-span-4 md:pl-0">
             
               {/* Logo */}
               
               <img className="relative full mb-0 pr-4 w-screen md:pr-0 md:w-48" src={require('../images/liqwid_FINAL_v2-01.png')}  height="96" alt="Testimonial 01" />
-            <p className="text-sm text-gray-600 md:w-48 text-center py-4 ">Liqwid · Finance </p>
-              <ul className="flex px-0 mx-auto ml-4 row-span-full pl-10 md:pl-0">
+              <p className="text-sm text-gray-600 md:w-48 text-center py-4 ">Liqwid · Finance </p>
+              <ul className="flex px-0 mx-auto ml-4 row-span-full justify-center ml-0 md:pl-0">
               
             <li>
               <a href="https://twitter.com/liqwidfinance" className="flex text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Twitter">
@@ -51,39 +51,43 @@ function Footer() {
           </div>
 
           {/* 2nd block */}
-          <div className="flex-col text-center md:text-left md:col-span-1">
+          <div className="flex-col text-center md:text-left">
             <h6 className="text-gray-800 font-medium mb-2 font-bold">Protocol</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">App</Link>
+                {/* <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">App</Link> */}
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Markets</Link>
+              <span onClick={() => openInNewTab('https://liqwid-labs.gitbook.io/liqwid-docs/')} className="cursor-pointer text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Docs</span>
               </li>
               <li className="mb-2">
-                <a href="https://liqwid-labs.gitbook.io/liqwid-docs/" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Docs</a>
+                <a href="%" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</a>
+              </li>
+              <li>
+              <span onClick={() => openInNewTab('https://github.com/Liqwidfinance')} className="cursor-pointer text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Github</span>
               </li>            
+              {/* <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Markets</Link> */}
             </ul>
           </div>
 
           {/* 3rd block */}
           <div className="flex-col text-center md:text-left">
-            <h6 className="text-gray-800 font-medium mb-2 font-bold">Governance</h6>
+            <h6 className="text-gray-800 font-medium mb-2 font-bold">Links</h6>
             <ul className="text-sm">
-              <li className="mb-2">
-                <span onClick={() => openInNewTab('https://liqwid-labs.gitbook.io/liqwid-docs')} className="cursor-pointer text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Docs</span>
-              </li>
               <li className="mb-2">
                 <span onClick={() => openInNewTab('https://drive.google.com/file/d/1HN65TDm7-06m7XwiXmLQeWFevZYKgEZG/view')} className="cursor-pointer text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">White Paper</span>
               </li>
               <li className="mb-2">
-                <span onClick={() => openInNewTab('https://github.com/Liqwidfinance')} className="cursor-pointer text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Github</span>
+              <span onClick={() => openInNewTab('https://liqwid-labs.gitbook.io/liqwid-docs/faq')} className="cursor-pointer text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">FAQ</span>
+              </li>
+              <li className="mb-2">
+              <span onClick={() => openInNewTab('https://liqwid-finance.medium.com/')} className="cursor-pointer text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Blog</span>
               </li>
             </ul>
           </div>
 
           {/* 4th block */}
-          <div className="flex-col text-center md:text-left">
+          {/* <div className="flex-col text-center md:text-left">
             <h6 className="text-gray-800 font-medium mb-2 font-bold">Company</h6>
             <ul className="text-sm">
               <li className="mb-2">
@@ -93,7 +97,7 @@ function Footer() {
                 <a href="https://liqwid-labs.gitbook.io/liqwid-docs/faq" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">FAQ</a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
                 
 

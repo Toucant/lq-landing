@@ -31,7 +31,7 @@ module.exports = {
         },
       },
       backgroundImage: theme =>({
-        'hero-lg': "src('/Mask_Group_1.png')",
+        'hero-lg': "src('/images/Liqwid-render-green-purplev2@2x.png')",
         'hero-sm': "url('/storage/img/sys/sm-hero.jpg')",
       }),
       boxShadow: {

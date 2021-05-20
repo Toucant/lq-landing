@@ -54,7 +54,7 @@ function Header() {
             {/* Launch */}
 
               <li>
-                <Link to="#" className="btn-sm font-bold text-gray-200 rounded-full ml-0 bg-gradient-to-r from-teal-600 to-blue-600 shadow-none visible">
+                <Link to="#" className="btn-sm font-bold text-gray-200 rounded-full ml-0 bg-gradient-to-r from-teal-600 to-blue-600 shadow-none invisible">
                   <span>Launch App</span>             
                 </Link>
               </li>

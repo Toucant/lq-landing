@@ -6,7 +6,7 @@ function Ecosystem() {
 
 
       <div className="max-w-6xl mx-auto">
-        <div className="pt-16 md:pt-20">
+        <div className="pt-0 md:pt-20">
 
           {/* Section header */}
           <div className="relative max-w-6xl mx-auto px-4 sm:px-6 pt-12">
