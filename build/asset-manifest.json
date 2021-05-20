@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.18cecdeb.chunk.css",
+    "main.js": "/static/js/main.9ab10ce0.chunk.js",
+    "main.js.map": "/static/js/main.9ab10ce0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f68614c4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f68614c4.js.map",
+    "static/js/2.4662d0e9.chunk.js": "/static/js/2.4662d0e9.chunk.js",
+    "static/js/2.4662d0e9.chunk.js.map": "/static/js/2.4662d0e9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ad7d198c3493c108a5fbb3b92ffe1762.js": "/precache-manifest.ad7d198c3493c108a5fbb3b92ffe1762.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.18cecdeb.chunk.css.map": "/static/css/main.18cecdeb.chunk.css.map",
+    "static/js/2.4662d0e9.chunk.js.LICENSE.txt": "/static/js/2.4662d0e9.chunk.js.LICENSE.txt",
+    "static/media/Liqwid-render-green-purplev2@2x.png": "/static/media/Liqwid-render-green-purplev2@2x.cfe0b20c.png",
+    "static/media/advisor-ac.png": "/static/media/advisor-ac.dd3bb2d4.png",
+    "static/media/advisor-hp.png": "/static/media/advisor-hp.5e597987.png",
+    "static/media/advisor-ld.png": "/static/media/advisor-ld.c9231dba.png",
+    "static/media/dc.png": "/static/media/dc.9bb6fbdd.png",
+    "static/media/fv.png": "/static/media/fv.9c123b96.png",
+    "static/media/hh.png": "/static/media/hh.2ca1a3b6.png",
+    "static/media/ja.png": "/static/media/ja.acd3157b.png",
+    "static/media/liqwid_FINAL_v2-01.png": "/static/media/liqwid_FINAL_v2-01.05a27c96.png",
+    "static/media/tv.png": "/static/media/tv.fc4c7411.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f68614c4.js",
+    "static/js/2.4662d0e9.chunk.js",
+    "static/css/main.18cecdeb.chunk.css",
+    "static/js/main.9ab10ce0.chunk.js"
+  ]
+}
