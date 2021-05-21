@@ -15,7 +15,7 @@ export default function About() {
          check out our <a href="https://liqwid-labs.gitbook.io/liqwid-docs/">Gitbook</a>
          
 </p>
-          </div><svg className="absolute justify-right right-0 inset-y-0 inset-x-16 mx-0" xmlns="http://www.w3.org/2000/svg" width="1620" height="696" viewBox="0 0 1920 790">
+          </div><svg className="absolute invisible md:visible justify-right right-0 inset-y-0 inset-x-16 mx-0" xmlns="http://www.w3.org/2000/svg" width="1620" height="696" viewBox="0 0 1920 790">
   <defs>
     <clipPath>
       <rect id="Rectangle_159" data-name="Rectangle 159" width="1920" height="696" transform="translate(0 1691)" fill="rgba(255,255,255,0)"/>

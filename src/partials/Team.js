@@ -7,7 +7,7 @@ function Team() {
           <div className="max-w-6xl mx-auto text-left pt-0 md:pt-12">
             <h3 className="text-teal-500 font-bold">Team</h3>
             <h2 className="h3">Core Team</h2>
-                
+                <p className="pt-2">The Liqwid team is composed of traditional finance industry veterans, DeFi power users and Haskell developers.</p>
           </div>
           <div className="max-w-6xl mx-auto text-left " data-aos="zoom-y-out">
             
@@ -59,7 +59,7 @@ function Team() {
             <div className="relative items-start border-gray-200 bg-white">
                 
               {/* Advisors */}
-              <div className=" text-left max-w-sm md:max-w-6xl mx-auto grid grid-cols-2 gap-2 md:grid-cols-6 sm:grid-cols-4 sm:grid-rows-1 md:gap-2 md:gap-6 pt-6">
+              <div className=" text-left max-w-sm md:max-w-6xl items-center mx-auto grid grid-cols-2 gap-2 md:grid-cols-6 sm:grid-cols-4 sm:grid-rows-1 md:gap-2 md:gap-6 pt-6">
                 
                   <div className="relative mx-auto flex flex-col align-center sm:items-center md:items-start bg-white">
                   <img className="relative sm:w-auto md:w-px-125" src={require('../images/Team/advisor-ac.png')}  alt="Dewayne Cameron" />   

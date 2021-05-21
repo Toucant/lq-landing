@@ -23,7 +23,7 @@ export default function FeaturesBlocks() {
     <section id="Solutions" className="relative">
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 ">
-        <div className="py-0 md:py-6 md:pt-32">
+        <div className="py-0 md:py-6 lg:pt-32">
 
           {/* Section header */}
           <div className="max-w-6xl mx-auto text-left pt-0 md:pt-16">

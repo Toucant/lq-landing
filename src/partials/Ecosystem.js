@@ -9,10 +9,10 @@ function Ecosystem() {
         <div className="pt-0 md:pt-20">
 
           {/* Section header */}
-          <div className="relative max-w-6xl mx-auto px-4 sm:px-6 pt-12">
+          <div className="relative max-w-6xl text-left md:text-center mx-auto px-4 sm:px-6 pt-12">
             <h3 className="text-teal-500 font-bold">Partners</h3>
-            <h2 className="h3 mb-4">Partners in the Ecosystem</h2>
-                <p>The Liqwid team is composed of traditional finance industry veterans, defi students of the game and Haskell developers.</p>
+            <h2 className="h3 mb-4">Meet Our Partners</h2>
+                
           </div>
 
           {/* Items */}

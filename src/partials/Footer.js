@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 
 function Footer() {
   return (
@@ -60,9 +60,9 @@ function Footer() {
               <li className="mb-2">
               <span onClick={() => openInNewTab('https://liqwid-labs.gitbook.io/liqwid-docs/')} className="cursor-pointer text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Docs</span>
               </li>
-              <li className="mb-2">
+              {/* <li className="mb-2">
                 <a href="%" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</a>
-              </li>
+              </li> */}
               <li>
               <span onClick={() => openInNewTab('https://github.com/Liqwidfinance')} className="cursor-pointer text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Github</span>
               </li>            
@@ -104,12 +104,7 @@ function Footer() {
         </div>
 
         {/* Bottom area */}
-        <div className="md:flex md:justify-center pt-0 md:pt-6 pb-8 border-t border-gray-200">
-          
-          {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4 text-center md:text-left">All rights reserved <a className="text-blue-600 hover:underline" href="https://github.com/Toucant">Liqwid Finance</a></div>
-
-        </div>
+       
 
       </div>
     </footer>
