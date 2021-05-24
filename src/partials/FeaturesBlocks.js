@@ -33,29 +33,29 @@ export default function FeaturesBlocks() {
           </div>
           
           {/* Items */}
-          <div className="max-w-6x1 mx-auto gap-0  grid grid-flow-col grid-rows-2 md:grid-rows-1 md:grid md:flex-grid md:grid-cols-5 items-start align-left md:max-w-2xl lg:max-w-none">
+          <div className="max-w-6x1 mx-auto gap-0 grid grid-flow-col grid-rows-2 md:grid-rows-1 md:grid md:flex-grid md:grid-cols-5 items-start align-left md:max-w-2xl lg:max-w-none">
 
             {/* 1st item */}
             
-            <div className="cursor-pointer select-none relative flex flex-col items-center p-6 bg-white rounded border-t-2 hover:border-teal-400 focus:border-teal-400" onClick={()=> setView("Supply")}>
+            <div className={`${viewState === "Supply" ? "border-teal-400" : "border-t-2"} cursor-pointer select-none relative flex flex-col items-center p-6 bg-white rounded border-t-2`} onClick={()=> setView("Supply")}>
              
               <h4 id="Supply" className="text-m md:text-xl leading-behind font-bold md:{leading-snug tracking-tight} " >Supply</h4>
             </div>
 
             {/* 2nd item */}
-            <div className="cursor-pointer select-none relative flex flex-col items-center p-6 bg-white rounded border-t-2 hover:border-teal-400" onClick={()=> setView("Borrow")}>
+            <div className={`${viewState === "Borrow" ? "border-teal-400" : "border-t-2"} cursor-pointer select-none relative flex flex-col items-center p-6 bg-white rounded border-t-2`} onClick={()=> setView("Borrow")}>
               
               <h4 id="Borrow"className="text-m md:text-xl font-bold md:{font-bold leading-snug tracking-tight} ">Borrow</h4>
             </div>
 
             {/* 3rd item */}
-            <div className="cursor-pointer select-none relative flex flex-col items-center p-6 bg-white rounded border-t-2 hover:border-teal-400" onClick={()=> setView("QToken")}>
+            <div className={`${viewState === "QToken" ? "border-teal-400" : "border-t-2"} cursor-pointer select-none relative flex flex-col items-center p-6 bg-white rounded border-t-2`} onClick={()=> setView("QToken")}>
               
               <h4 id="QToken" className="text-m md:text-xl font-bold md:{font-bold leading-snug tracking-tight} ">qTokens</h4>
             </div>
 
             {/* 4th item */}
-            <div className="cursor-pointer select-none relative flex flex-col items-center p-6 bg-white rounded border-t-2 hover:border-teal-400" onClick={()=> setView("Governance")}>
+            <div className={`${viewState === "Governance" ? "border-teal-400" : "border-t-2"} cursor-pointer select-none relative flex flex-col items-center p-6 bg-white rounded border-t-2`} onClick={()=> setView("Governance")}>
                         
               <h4 id="Governance" className="text-m md:text-xl font-bold md:{font-bold leading-snug tracking-tight} ">Governance</h4>
             </div>
@@ -64,14 +64,14 @@ export default function FeaturesBlocks() {
             
 
             {/* 6th item */}
-            <div className="cursor-pointer select-none relative flex flex-col items-center p-6 bg-white rounded border-t-2 hover:border-teal-400" onClick={()=> setView("LQ")}>
+            <div className={`${viewState === "LQ" ? "border-teal-400" : "border-t-2"} cursor-pointer select-none relative flex flex-col items-center p-6 bg-white rounded border-t-2`} onClick={()=> setView("LQ")}>
               <h3 id="LQ" className="text-m md:text-xl  font-bold md:{font-bold leading-snug tracking-tight}">$LQ</h3>
             </div>
           </div>
         </div>
         
       </div>
-      <div className=" flex mx-auto px-8 ">
+      <div className=" flex mx-auto px-6 pt-8">
         {viewState === "Supply" && <Supply />}
         {viewState === "Borrow" && <Borrow />}
         {viewState === "QToken" && <QToken />}

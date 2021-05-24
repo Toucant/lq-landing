@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Borrow() {
     return (
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 border-l-8">
+        <div className="relative max-w-6xl mx-auto px-0 lg:px-6">
             
 
             <div>

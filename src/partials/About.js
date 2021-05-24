@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function About() {
     return (
-        <section id="About" className="relative pt-0 md:pt-16 pb-16 md:pb-16">
+        <section id="About" className="relative pt-0 pb-16 pt-8  md:pb-16">
           <div className=" max-w-6xl mx-auto text-left pt-16 md:pt-12 px-6">
             <h3 className="text-teal-500 font-bold">About</h3>
-            <h2  className="h3">About Liqwid</h2>
+            <h2  className="h3 pb-2">About Liqwid</h2>
               
             <p className="relative float-left">Liqwid is an interest rate curve DeFi liquidity protocol for the Cardano ecosystem. It establishes a decentralized 
 				marketplace for lenders and borrowers to seamlessly interact via supplying funds, minting interest-bearing qTokens, 
@@ -15,7 +15,7 @@ export default function About() {
          check out our <a href="https://liqwid-labs.gitbook.io/liqwid-docs/">Gitbook</a>
          
 </p>
-          </div><svg className="absolute invisible md:visible justify-right right-0 inset-y-0 inset-x-16 mx-0" xmlns="http://www.w3.org/2000/svg" width="1620" height="696" viewBox="0 0 1920 790">
+          </div><svg className="hidden md:inline-flex md:absolute right-0 inset-y-0 inset-x-16 mx-0" xmlns="http://www.w3.org/2000/svg" width="1620" height="696" viewBox="0 0 1920 790">
   <defs>
     <clipPath>
       <rect id="Rectangle_159" data-name="Rectangle 159" width="1920" height="696" transform="translate(0 1691)" fill="rgba(255,255,255,0)"/>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Governance() {
     return (
-        <div className="relative max-w-6xl mx-auto px-4 border-l-8">
+        <div className="relative max-w-6xl mx-auto px-0 lg:px-6">
 
             <div>
             <p>Liqwid is managed by a decentralized community of LQ token-holders and their delegates, who propose and vote on upgrades to the protocol or request project funding from the LiqwiDAO Treasury.

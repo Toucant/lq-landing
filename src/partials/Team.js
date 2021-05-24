@@ -2,10 +2,10 @@ import React from 'react'
 
 function Team() {
     return (
-        <section id="Team"  className="relative pt-8 px-2 md:pt-16">
-          <div className ="relative max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="max-w-6xl mx-auto text-left pt-0 md:pt-12">
-            <h3 className="text-teal-500 font-bold">Team</h3>
+        <section id="Team"  className="inline-flex md:contents pt-8 px-2 md:pt-16">
+          <div className ="relative max-w-6xl mx-auto px-4 pt-0 md:pt-12 sm:px-6">
+          <div className="max-w-6xl mx-auto text-left pt-16 md:pt-12">
+            <h3 className="text-teal-500 font-bold lg:pt-0">Team</h3>
             <h2 className="h3">Core Team</h2>
                 <p className="pt-2">The Liqwid team is composed of traditional finance industry veterans, DeFi power users and Haskell developers.</p>
           </div>
@@ -52,7 +52,7 @@ function Team() {
 
             
           </div>
-          <div className="max-w-6xl mx-auto text-left pt-0 md:pt-12">
+          <div className="max-w-6xl mx-auto text-left pt-8 md:pt-12">
             <h3 className="text-teal-500 font-bold">Team</h3>
             <h2 className="h3">Advisors</h2></div>
             <div className="max-w-6xl mx-auto text-left" data-aos="zoom-y-out">
@@ -62,17 +62,17 @@ function Team() {
               <div className=" text-left max-w-sm md:max-w-6xl items-center mx-auto grid grid-cols-2 gap-2 md:grid-cols-6 sm:grid-cols-4 sm:grid-rows-1 md:gap-2 md:gap-6 pt-6">
                 
                   <div className="relative mx-auto flex flex-col align-center sm:items-center md:items-start bg-white">
-                  <img className="relative sm:w-auto md:w-px-125" src={require('../images/Team/advisor-ac.png')}  alt="Dewayne Cameron" />   
+                  <img className="relative sm:w-auto md:w-px-125" src={require('../images/Team/advisor-ac.png')}  alt="Alex Carter" />   
                   <p className="text-sm font-bold  text-black  mb-0 text-center">Alex Cater</p>
              <p className="text-teal-500 text-center">Strategic Advisor</p>
              </div>
              <div className="relative mx-auto flex flex-col align-center sm:items-center md:items-start bg-white">
-           <img className="relative sm:w-auto md:w-px-125" src={require('../images/Team/advisor-hp.png')}  alt="Dewayne Cameron" />  
+           <img className="relative sm:w-auto md:w-px-125" src={require('../images/Team/advisor-hp.png')}  alt="Hinrich Pfeifer" />  
            <p className="text-sm font-bold  text-black  mb-0 text-center">Hinrich Pfeifer</p>
              <p className="text-teal-500 text-center">Cardano Foundation</p>
            </div>
            <div className="relative mx-auto flex flex-col align-center sm:items-center md:items-start bg-white">
-           <img className="relative sm:w-auto md:w-px-125" src={require('../images/Team/advisor-ld.png')}  alt="Dewayne Cameron" />  
+           <img className="relative sm:w-auto md:w-px-125" src={require('../images/Team/advisor-ld.png')}  alt="Larry Doyle" />  
            <p className="text-sm font-bold  text-black  mb-0 text-center">Larry Doyle</p>
              <p className="text-teal-500 text-center">Economic Advisor</p>
            </div>

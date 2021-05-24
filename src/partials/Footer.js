@@ -7,10 +7,10 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-0">
 
         {/* Top area: Blocks */}
-        <div className="grid grid-cols-2 sm:grid-cols-6 md:grid-cols-9 grid-rows-2 md:grid-rows-1 md:gap-8 md:pt-12 border-t border-gray-200 pt-16 md:pt-0 ">
+        <div className="grid grid-cols-2 sm:grid-cols-6 md:grid-cols-8 grid-rows-2 md:grid-rows-1 md:gap-8 md:pt-12 border-t border-gray-200 pt-16 md:pt-0 ">
 
           {/* 1st block */}
-          <div className="col-span-2 row-span-1 md:row-span-1 sm:mx-auto items-center md:col-span-4 md:pl-0">
+          <div className="col-span-2 pb-8 row-span-1 md:row-span-1 sm:mx-auto items-center md:col-span-4 md:pl-0">
             
               {/* Logo */}
               
@@ -72,7 +72,7 @@ function Footer() {
 
           {/* 3rd block */}
           <div className="flex-col text-center md:text-left">
-            <h6 className="text-gray-800 font-medium mb-2 font-bold">Links</h6>
+            <h6 className="text-gray-800 font-medium mb-2 font-bold">About</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <span onClick={() => openInNewTab('https://drive.google.com/file/d/1HN65TDm7-06m7XwiXmLQeWFevZYKgEZG/view')} className="cursor-pointer text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">White Paper</span>
